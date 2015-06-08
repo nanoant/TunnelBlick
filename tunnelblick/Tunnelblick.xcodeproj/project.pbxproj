@@ -715,6 +715,7 @@
 				63B4DCE41A409DF300F6A74C /* ServiceManagement.framework */,
 				634616861A9B85C60049C16C /* SystemConfiguration.framework */,
 			);
+			indentWidth = 4;
 			name = Tunnelblick;
 			sourceTree = "<group>";
 		};
