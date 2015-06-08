@@ -228,13 +228,6 @@
 			remoteGlobalIDString = 6317943D118D7E820057ACAF;
 			remoteInfo = atsystemstart;
 		};
-		635BF19F1501CDAF00D87717 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 635BF17E1501CCDF00D87717;
-			remoteInfo = ExternalBuildCleanScript;
-		};
 		638A200E135CC4C000FB932C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -1343,7 +1336,6 @@
 				63AA8E651492C7CC00C791C9 /* PBXTargetDependency */,
 				63ED8EF51A1E84A70045D34E /* PBXTargetDependency */,
 				63C375871A4513A700D51E81 /* PBXTargetDependency */,
-				635BF1A01501CDAF00D87717 /* PBXTargetDependency */,
 			);
 			name = Tunnelblick;
 			productInstallPath = "$(HOME)/Applications";
@@ -1669,11 +1661,6 @@
 			isa = PBXTargetDependency;
 			target = 6317943D118D7E820057ACAF /* atsystemstart */;
 			targetProxy = 631795DC118DC57E0057ACAF /* PBXContainerItemProxy */;
-		};
-		635BF1A01501CDAF00D87717 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 635BF17E1501CCDF00D87717 /* ExternalBuildCleanScript */;
-			targetProxy = 635BF19F1501CDAF00D87717 /* PBXContainerItemProxy */;
 		};
 		638A200F135CC4C000FB932C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
