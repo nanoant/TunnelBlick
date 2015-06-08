@@ -2,7 +2,7 @@
 +++ src/tap/Makefile	2015-01-17 14:37:55.000000000 -0500
 @@ -21,11 +21,11 @@
  
- INCLUDE = -I.. -I/System/Library/Frameworks/Kernel.framework/Headers
+ INCLUDE = -I.. -I$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers
  CFLAGS = -Wall -mkernel -force_cpusubtype_ALL \
 -	-fno-builtin -fno-stack-protector -arch i386 -arch x86_64 \
 +	-fno-builtin -fno-stack-protector $(TUNTAP_ARCHS) \
@@ -19,7 +19,7 @@ diff -u -r -x .svn -x .DS_Store tuntap-20111101/tuntap/src/tun/Makefile tuntap-2
 +++ src/tun/Makefile	2015-01-17 14:37:53.000000000 -0500
 @@ -22,11 +22,11 @@
  
- INCLUDE = -I.. -I/System/Library/Frameworks/Kernel.framework/Headers
+ INCLUDE = -I.. -I$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers
  CFLAGS = -Wall -mkernel -force_cpusubtype_ALL \
 -	-fno-builtin -fno-stack-protector -arch i386 -arch x86_64 \
 +	-fno-builtin -fno-stack-protector $(TUNTAP_ARCHS) \
