@@ -3941,6 +3941,9 @@ static void signal_handler(int signalNumber)
         [dirEnum skipDescendents];
         if (   ( [dirName hasPrefix: @"openvpn-"] )  ) {
 			NSString * versionFromDirName = [dirName substringFromIndex: [@"openvpn-" length]];
+            if ([versionFromDirName hasSuffix:@"txp"]) {
+                versionFromDirName = [versionFromDirName substringToIndex:versionFromDirName.length - 3];
+            }
             
             // Use ./openvpn --version to get the version information
             NSString * openvpnPath = [[openvpnDirPath stringByAppendingPathComponent: dirName ]
