@@ -83,9 +83,6 @@ all: built-easy-rsa-tunnelblick \
     built-tuntap                \
     built-sparkle               \
     built-openvpn
-	if [ "$${CONFIGURATION}" != "Debug" ]; then \
-		rm -f -R $(TOPDIR)/$(BUILD_NAME) ; \
-	fi
 	@echo "THIRD_PARTY: Made all third_party for Tunnelblick"
 
 clean:
